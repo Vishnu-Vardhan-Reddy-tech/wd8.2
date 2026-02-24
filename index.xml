@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="books.xsl"?>
 
-<bookstore>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="books.xsd">
 
 <book>
 <title>Artificial Intelligence</title>
 <author>Vishnu</author>
-<category>Computer Science</category>
-<language>English</language>
-<pages>1152</pages>
+<isbn>9780136042594</isbn>
+<publisher>Vardhan Reddy</publisher>
 <edition>3</edition>
 <price>750</price>
 </book>
@@ -16,9 +18,8 @@
 <book>
 <title>Data Structures</title>
 <author>Hrushi</author>
-<category>Programming</category>
-<language>English</language>
-<pages>500</pages>
+<isbn>9780070701984</isbn>
+<publisher>Merla</publisher>
 <edition>2</edition>
 <price>600</price>
 </book>
@@ -26,9 +27,8 @@
 <book>
 <title>Operating Systems</title>
 <author>Vivek</author>
-<category>System Software</category>
-<language>English</language>
-<pages>976</pages>
+<isbn>9781118063330</isbn>
+<publisher>Satupalli</publisher>
 <edition>9</edition>
 <price>850</price>
 </book>
@@ -36,19 +36,17 @@
 <book>
 <title>Computer Networks</title>
 <author>Bhavya</author>
-<category>Networking</category>
-<language>English</language>
-<pages>960</pages>
+<isbn>9780132126953</isbn>
+<publisher>Sri</publisher>
 <edition>5</edition>
 <price>780</price>
 </book>
 
 <book>
-<title>Database Systems</title>
+<title>Database System Concepts</title>
 <author>Poojitha</author>
-<category>Database</category>
-<language>English</language>
-<pages>1200</pages>
+<isbn>9780073523323</isbn>
+<publisher>Naredla</publisher>
 <edition>6</edition>
 <price>820</price>
 </book>
@@ -56,9 +54,8 @@
 <book>
 <title>Python Programming</title>
 <author>Nirmal</author>
-<category>Programming</category>
-<language>English</language>
-<pages>420</pages>
+<isbn>9781593279929</isbn>
+<publisher>Sai</publisher>
 <edition>1</edition>
 <price>550</price>
 </book>
@@ -66,9 +63,8 @@
 <book>
 <title>Machine Learning</title>
 <author>Arjun</author>
-<category>Artificial Intelligence</category>
-<language>English</language>
-<pages>700</pages>
+<isbn>9780070428072</isbn>
+<publisher>Reddy</publisher>
 <edition>1</edition>
 <price>900</price>
 </book>
@@ -76,9 +72,8 @@
 <book>
 <title>Computer Organization</title>
 <author>Mohan</author>
-<category>Computer Architecture</category>
-<language>English</language>
-<pages>800</pages>
+<isbn>9780073380650</isbn>
+<publisher>Vardhan</publisher>
 <edition>5</edition>
 <price>720</price>
 </book>
