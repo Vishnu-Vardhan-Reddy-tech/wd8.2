@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<bookstore>
+
+<book>
+<title>Artificial Intelligence</title>
+<author>Vishnu</author>
+<category>Computer Science</category>
+<language>English</language>
+<pages>1152</pages>
+<edition>3</edition>
+<price>750</price>
+</book>
+
+<book>
+<title>Data Structures</title>
+<author>Hrushi</author>
+<category>Programming</category>
+<language>English</language>
+<pages>500</pages>
+<edition>2</edition>
+<price>600</price>
+</book>
+
+<book>
+<title>Operating Systems</title>
+<author>Vivek</author>
+<category>System Software</category>
+<language>English</language>
+<pages>976</pages>
+<edition>9</edition>
+<price>850</price>
+</book>
+
+<book>
+<title>Computer Networks</title>
+<author>Bhavya</author>
+<category>Networking</category>
+<language>English</language>
+<pages>960</pages>
+<edition>5</edition>
+<price>780</price>
+</book>
+
+<book>
+<title>Database Systems</title>
+<author>Poojitha</author>
+<category>Database</category>
+<language>English</language>
+<pages>1200</pages>
+<edition>6</edition>
+<price>820</price>
+</book>
+
+<book>
+<title>Python Programming</title>
+<author>Nirmal</author>
+<category>Programming</category>
+<language>English</language>
+<pages>420</pages>
+<edition>1</edition>
+<price>550</price>
+</book>
+
+<book>
+<title>Machine Learning</title>
+<author>Arjun</author>
+<category>Artificial Intelligence</category>
+<language>English</language>
+<pages>700</pages>
+<edition>1</edition>
+<price>900</price>
+</book>
+
+<book>
+<title>Computer Organization</title>
+<author>Mohan</author>
+<category>Computer Architecture</category>
+<language>English</language>
+<pages>800</pages>
+<edition>5</edition>
+<price>720</price>
+</book>
+
+</bookstore>
